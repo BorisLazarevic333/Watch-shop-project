@@ -498,6 +498,10 @@ footer {
 }
 
 @media (max-width: 992px) {
+  .title {
+    font-size: 3rem;
+  }
+
   .call-us a {
     font-size: 1.2rem;
   }
@@ -535,7 +539,7 @@ footer {
   .nav-toggle-input:checked + .nav-toggle + .links {
     display: block;
     position: absolute;
-    top: 14%;
+    top: 11%;
     right: 0;
     left: 0;
     background: #fff;
@@ -650,5 +654,33 @@ footer {
   }
   .search-bar {
     margin-bottom: 3%;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero-heading {
+    font-size: 4rem;
+  }
+
+  .hero-paragraph {
+    font-size: 1.7rem;
+  }
+
+  .cta {
+    font-size: 2rem;
+  }
+  .title {
+    font-size: 2.5rem;
+  }
+  .categorie-panel {
+    width: 40%;
+  }
+
+  .product {
+    width: 50%;
+  }
+
+  .product::before {
+    font-size: 1.4rem;
   }
 }
